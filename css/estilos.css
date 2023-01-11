@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: linear-gradient(#8aedf6 0%, #60a2f5 100%);
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#idioma {
+    width: 80px;
+    height: 40px;
+}
+
+#logo {
+    width: 70px;
+}
+
+#usuario {
+    width: 30px;
+}
+
+#notificaciones {
+    width: 30px;
+
+}
+
+#iconos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bienvenida {
+    background-color: rgb(206, 215, 226);
+    color: rgba(57, 57, 214, 0.89);
+    text-align: justify;
+}
+
+.romantico {
+    background-color: rgb(16, 72, 177);
+}
+
+.luna-de-miel {
+    background-color: rgb(74, 129, 231);
+}
+
+.aventura {
+    background-color: rgb(131, 178, 231);
+}
+
+.spa {
+    background-color: rgb(176, 201, 230);
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+}
+
+#puerto {
+    margin: 0 auto;
+    display: flex;
+}
+
+#restaurante {
+    margin: 0 auto;
+    display: flex;
+}
+
+#contenedorImagen {
+    position: relative;
+    display: inline-block;
+}
+
+#restaurante {
+    display: flex;
+    justify-content: center;
+}
+
+#texto {
+    background-color: white;
+    text-align: center;
+    width: 1199px;
+}
+
+#texto2 {
+    text-align: center;
+}
+
+.formulario {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#boton {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+}
+
+.iconos {
+    width: 30px;
+}
+
+#botones-modal {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:580px) {
+    .footer {
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .logo-footer,
+    .text-footer,
+    .redes {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+    }
+}
